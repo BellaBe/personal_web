@@ -1,0 +1,15 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -r dist && mkdir dist",
+    "prebuild": "npm run clean",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "BellaBe <bella.belgarokova@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}
