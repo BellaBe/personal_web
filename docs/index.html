@@ -1,64 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="google-site-verification" content="GEsRtbNcRmH93JoULaZ7kM6dQPGOr0zfyaspP9w8yg4" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="google-site-verification"
+      content="GEsRtbNcRmH93JoULaZ7kM6dQPGOr0zfyaspP9w8yg4"
+    />
     <meta name="msvalidate.01" content="493AA6C04A882F79973110C5CDE091F8" />
     <meta name="yandex-verification" content="b90c9b6aa7820f19" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
     <title>JS | Web dev</title>
-</head>
+  </head>
 
-<body>
-    <div class="wrapper">
-        <header class="mb2">          
-                <h1 class="small-caps">Bella Be | JS WebDev</h1>        
-                <a href="https://github.com/BellaBe" class="navbar-item"> My Github</a>
-        </header>
-        <main>
-            <section class="mb2">
-                <h3 class="mb1">Who I am</h3>
-                <ul>
-                    <li>Hi, my name is Bella and I am a JS dev on client and server sides.</li>
-                    <li>During winter time I am usually based in London (UK) and during summer time in Venice (Italy).</li>
-                </ul>
-            </section>
-            <section class="mb2">
-                <h3 class="mb1">What I do</h3>
-                <ul>
-                    <li>Web apps (Universal & progressive)</li>
-                    <li>REST Api</li>
-                </ul>
-            </section>
-            <section class="mb2">
-                
-                    <h3 class="mb1">What tech I use</h3>
-                    <ul>
-                        <li>Frontend: HTML, CSS, Javascript(@latest)</li>
-                        <li>Backend: Node.js</li>
-                        <li>Databases: MongoDB</li>
-                        <li>Transport language: JSON</li>
-                        <li>Tools: Webpack, Babel, Git</li>
-                    </ul>
-               
-            </section>
-            <section class="mb2">
-                <div>
-                    <h3 class="mb1">Get in touch</h3>
-                    <li>bella.belgarokova@hotmail.com</li>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; London 2018</p>
-        </footer>
+  <body>
+    <header>
+        <nav class="card">
+            <p>Bella BE</p>
+            <div>
+                <a href="mailto:bella.belgarokova@hotmail.com" class="uppercase" style=" display: flex; justify-content: space-between; align-items:center;">Write me<i class="far fa-envelope"></i></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+          <p class="">Hello, my Name is Bella</p>
+          <p>I am a <span>fullstack software engineer</span> based in London, UK. </p> 
+          <p>My main focus is creating understandable, maintainable and testable code.</p> 
+
+      </section>
+        <section class="card flex">
+          <div class="flex-item">
+            <p class=""><span class="line">I currently</span> use</p>
+          </div>
+          <div class="flex-item">
+            <ul>
+              <li>HTML CSS Javascript</li>
+              <li>Vue.js</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>HTTP </li>
+              <li>Passport.js</li>
+              <li>REST</li>
+              <li>JSON</li>
+            </ul>
+          </div>
+          <div class="flex-item">
+            <ul>
+              <li>MongoDB</li>
+              <li>Mongoose.js</li>
+              <li>Webpack</li>
+              <li>Bash</li>
+              <li>Git</li>
+              <li>Babel</li>
+              <li>Windows</li>
+              <li>Heroku </li>
+            </ul>
+          </div>
+        </section>
+        <section class="flex card">
+          <div class="flex-item">
+              <p><span class="line">I currently</span> work on</p>
+          </div>
+          <div class="flex-item">
+              <a href="" class="heading">Coupon aggregator</a>
+              <p class="text">concept, UI, architecture, code</p>
+              <div class="cta">
+                  <i class="fas fa-arrow-circle-right"></i>
+                  <a href="">view project</a>
+                  
+              </div>
+              
+          </div>
+          <div class="flex-item">
+              <a href="" class="heading">Hotel website</a> 
+              <p class="text">UI, architecture, code</p>
+              <p class="cta">
+                  <i class="fas fa-arrow-circle-right"></i>
+                  view project
+              </p>         
+          </div>
+        </section>
+        <section class="card">
+            <div>
+              Get in touch <a href="mailto:bella.belgarokova@hotmail.com">bella.belgarokova@hotmail.com</a>
+            </div>
+        </section>
+      </main>
+      <footer class="flex card">
+        <p>&copy; London 2018</p>
+        <div class="icons">
+            <a href="https://github.com/BellaBe"><i class="fab fa-github"></i></a>
+            <a href="www.linkedin.com/in/bellabelgarokova"><i class="fab fa-linkedin"></i></a>     
+        </div>
+       
+       
+      </footer>
     </div>
 
+    <!-- <section class="mb2">
+          <h3 class="mb1">Skills & technologies</h3>
+          <ul>
+            <li>Web apps (Universal & progressive)</li>
+            <li>REST Api</li>
+          </ul>
+          <ul>
+            <li>Originality</li>
+            <li>Persuasion</li>
+            <li>Collaboration</li>
+            <li>Adaptability</li>
+            <li>Time management</li>
+            <li>Cloud computing</li>
+            <li>Artificial intelligence</li>
+            <li>Analytical reasoning</li>
+            <li>People management</li>
+            <li>UX design</li>
+          </ul>
+        </section> -->
+
     <script src="./js/script.js"></script>
-
-</body>
-
+  </body>
 </html>
